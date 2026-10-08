@@ -1,0 +1,2 @@
+# Preserve byte-pinned contracts across Windows/Linux checkouts.
+* -text

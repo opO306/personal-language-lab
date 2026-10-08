@@ -1,0 +1,39 @@
+{
+  "schema": "personal-language-lab-public-snapshot-v1",
+  "snapshot": "stable P08 component, valid-mean readout and passive observer helpers",
+  "source_origin_sha256": {
+    "src/idea_model/contracts.py": "9000ca9aa47fb0543a325ea073f439c4f72940956986d4eb466d027260848180",
+    "src/idea_model/codec.py": "27e4f9e8ffd88e7eb7dc4a4c1fc6c52782be3cb4e99b10f2aeda0bd2a69a8857",
+    "src/idea_model/batching.py": "645180a7590d83c4f51c71f24d004047c0725f646d508976a6660ea26b3d247d",
+    "src/idea_model/__init__.py": "b7fe133b82eaffd406351d49696967c693b0e5a17c012295853375fcf5c41fd7",
+    "src/p08_encoder/model.py": "b6adac06078a1a039e8144fba3ee2e9d4803ae6626ff6e9b23482cae7125aaba",
+    "src/p08_encoder/vocabulary.py": "209c4c2e394ee42ec438ba12891470bbe78560754b79707a73689c2966a813a6",
+    "src/p08_encoder/supervision.py": "c60034f2a0f1224bbf053c22c8793cf09bac720928a0ec3793b0084e2889eb25",
+    "src/p08_encoder/__init__.py": "0ce6a5a6e37e0003d982facf2fcef603e44d77456713d1faa94fb43f3744a8d3",
+    "src/p08_mean_readout/model.py": "25a365250ab02a685dbbae11b6b63277d8dec80e4cbc249b1e7002dd156d13e9",
+    "tests/test_vocabulary.py": "064cdeea1ea2ae9d7696cf6e2cb8bad19de0996bd06b9a2766534cd2dbbad572",
+    "tests/test_encoder.py": "4581246e1559d873660c490d39136ac7b17648c9ae8cd388cb312e736774f393",
+    "tests/test_supervision.py": "5b07124e9934b272007cc94794999c61b5c0d5a3fea38072857453024f4b8a09",
+    "tests/test_training_inference_boundary_red.py": "49f9022d29127c664ddc9722d1fd582a067404f5c0f87f7878aad9d0ebcff176",
+    "tests/test_p08_signal_observer_small.py": "248aaba1bd4e0b004e82d48a4f74b619659a83bca8eeccfbdb1e40ef5c7aa2a1",
+    "tools/bounded_check.py": "73b0c144c25f087e220290d91a2a6a20fd0932bab7a8999f347afd85e07f05ba",
+    "tools/execution_binding.py": "7098e716ff8a87a767199285813fade34b8b533a98056abf4b863df7b3507a0e",
+    "pytest.ini": "7bde1a0b2e600d709e1f5be695341db1e131e681af8947ca2aa27117a40e56c1"
+  },
+  "contract_schema_version": 1,
+  "vocabulary_size": 327,
+  "parameter_count": 30450,
+  "source_rights": "Owner-authorized curated publication; no new license; preserved legacy/third-party sources excluded.",
+  "publication_edits": {
+    "src/p08_mean_readout/__init__.py": "Expose build_model only; private data loader omitted.",
+    "tools/p08_signal_observer.py": "Remove run_approved campaign entry; passive helpers retained.",
+    "tests/test_p08_valid_mean_readout.py": "Select four safe checked fixture tests; private loader/pilot tests omitted.",
+    "docs/encoder_interface_KO.md": "Workspace coordination introduction removed; technical interface retained."
+  },
+  "excluded_status": {
+    "M-A": "in_progress;excluded",
+    "native_originals": "excluded;redistribution rights not assumed",
+    "campaign_data_and_checkpoints": "local_only"
+  },
+  "public_validation": "Static syntax/privacy screening only; no new model tests during live M-A."
+}

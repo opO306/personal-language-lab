@@ -1,0 +1,16 @@
+{
+  "schema": "handwritten-linear-margin-fixture-v1",
+  "delta_weight_first_dimension": 3,
+  "bias_difference": 1,
+  "valid_hidden_first_dimensions": [
+    1,
+    3
+  ],
+  "masked_pad_hidden_first_dimension": 999,
+  "expected_mean_margin": 7,
+  "expected_valid_time_contributions": [
+    1.5,
+    4.5
+  ],
+  "purpose": "Handwritten algebra/PAD fixture, not campaign/user data."
+}
